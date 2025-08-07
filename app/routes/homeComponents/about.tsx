@@ -26,7 +26,7 @@ export default function About() {
         emerging challenges.
       </p>
       <p className="text-lg mb-4 text-center sm:text-left">
-        I specialize in JavaScript/TypeSript frameworks, and I enjoy working on
+        I specialize in JavaScript/TypeScript frameworks, and I enjoy working on
         projects that challenge my skills and allow me to learn new
         technologies. My goal is to continuously improve my craft and contribute
         to innovative projects that make a difference.
@@ -38,10 +38,10 @@ export default function About() {
         with my technological skills to create products that create real value.
       </p>
       <p className="text-lg text-center sm:text-left mb-4">
-        I'm located in Malmö Sweden with a degree from Malmö University in
-        Mediatechnology. Feel free to explore some of my projects or if you want
-        to take a coffee with me or have a chat over Zoom you can reach me
-        through the links below!
+        I'm located in Malmö Sweden with a degree from Malmö University in media
+        technology. Feel free to explore some of my projects or if you want to
+        take a coffee with me or have a chat over Zoom you can reach me through
+        the links below!
       </p>
       <a
         href="emailto:caspianulvmane@gmail.com"
