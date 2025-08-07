@@ -17,15 +17,56 @@ export default function About() {
         experiences.
       </p>
       <p className="text-lg mb-4 text-center sm:text-left">
-        I specialize in JavaScript, React, and Node.js, and I enjoy working on
+        I'm a Dynamic fullstack developer who is adept at creating scalable web
+        applications that enhance user engagement. I'm proficient in modern
+        technologies such as React, Symfony, and Firebase, with a strong
+        foundation in both frontend and backend development. I'm always
+        committed to delivering high-quality solutions through collaboration and
+        agile methodologies, while continuously developing my skills to meet
+        emerging challenges.
+      </p>
+      <p className="text-lg mb-4 text-center sm:text-left">
+        I specialize in JavaScript/TypeSript frameworks, and I enjoy working on
         projects that challenge my skills and allow me to learn new
         technologies. My goal is to continuously improve my craft and contribute
         to innovative projects that make a difference.
       </p>
-      <p className="text-lg text-center sm:text-left">
-        Feel free to explore my projects and connect with me through the links
-        below!
+      <p className="text-lg mb-4 text-center sm:text-left">
+        During my education I've had the opportunity to learn about graphic
+        design, business development and marketing as well as programming. I
+        enjoy combining my many interests such as design, film making and music
+        with my technological skills to create products that create real value.
       </p>
+      <p className="text-lg text-center sm:text-left mb-4">
+        I'm located in Malmö Sweden with a degree from Malmö University in
+        Mediatechnology. Feel free to explore some of my projects or if you want
+        to take a coffee with me or have a chat over Zoom you can reach me
+        through the links below!
+      </p>
+      <a
+        href="emailto:caspianulvmane@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent-foreground hover:underline self-baseline mb-2"
+      >
+        caspianulvmane@gmail.com
+      </a>
+      <a
+        href="tel:+46764700615"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent-foreground hover:underline self-baseline mb-2"
+      >
+        +46 764 70 06 15
+      </a>
+      <a
+        href="https://github.com/CaspianUlvmane"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent-foreground hover:underline self-baseline"
+      >
+        GitHub
+      </a>
     </div>
   );
 }

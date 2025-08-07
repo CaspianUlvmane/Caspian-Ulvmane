@@ -58,7 +58,10 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-6">My Projects</h1>
         <div className="grid gap-4">
           {projects.map((project) => (
-            <Card key={project.id} className="border-accent ">
+            <Card
+              key={project.id}
+              className="border-accent backdrop-blur-[1px] bg-card/10"
+            >
               <CardHeader>
                 <h2 className="font-bold text-2xl">{project.title}</h2>
               </CardHeader>
@@ -68,7 +71,7 @@ export default function Home() {
                   {project.technologies.map((tech: string, index: number) => (
                     <>
                       <li
-                        className="p-2 border border-accent rounded-2xl shadow-sm"
+                        className="p-2 border border-accent rounded-2xl shadow-sm bg-card"
                         key={index}
                       >
                         {tech}
