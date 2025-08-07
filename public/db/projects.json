@@ -1,0 +1,96 @@
+{
+    "projects": [
+        {
+        "id": 1,
+        "title": "Taste Events by Wolfmoon",
+        "description": "A professional website displaying events hosted by Taste Events by Wolfmoon.",
+        "details": [
+          "This project showcases a professional website that lists various events hosted by Taste Events by Wolfmoon, featuring a modern design and user-friendly interface.",
+          "By utilizing Firebase for backend services, the site ensures real-time updates and efficient data management.",
+          "The site includes an admin platform where the company can quickly and easily create new events, change old ones, and manage the site's content."
+        ],
+        "technologies": ["JavaScript", "React", "Node.js", "Firebase", "GCP"],
+        "url": "https://tasteeventsbywolfmoon.se",
+        "github": "https://github.com/CaspianUlvmane/TasteEvents",
+        "date": "2024-06-01"
+        },
+        {
+        "id": 2,
+        "title": "Movie Community",
+        "description": "A simple movie review website displaying comments and ratings of popular movies.",
+        "details": [
+          "This project is a movie review website that allows users to view and post comments and ratings for popular movies.",
+          "It features a basic design with the purpose of exploring the Remix framework.",
+          "The site is built using Remix for the frontend and Prisma DB for the backend, ensuring a responsive and dynamic user experience.",
+          "By fetching movies from an external API and storing user-generated content in a Prisma database, the site provides a seamless interaction for movie enthusiasts."
+        ],
+        "technologies": ["TypeScript", "Remix", "Prisma DB", "Tailwind CSS"],
+        "url": "https://remix-movie-community.vercel.app",
+        "github": "https://github.com/CaspianUlvmane/Remix_Movie_Community",
+        "date": "2024-11-26"
+        },
+        {
+        "id": 3,
+        "title": "Mocha Movies",
+        "description": "A movie review website displaying comments and ratings of popular movies.",
+        "details": [
+          "This project is a movie review website that allows users to view and post comments and ratings for popular movies.",
+          "It features a sleek and modern design for easy navigation.",
+          "The site is built using JavaScript for the frontend and PHP for the backend, storing data in a simple JSON database.",
+          "By logging in, users can review, comment, and save movies while keeping up with their friends, all with a dynamic user experience.",
+          "By fetching movies from an external API and storing user-generated content in a JSON database, the site provides a seamless interaction for movie enthusiasts.",
+          "This project was part of a project at Malmö University, showcasing my skills in web development and user experience design."
+        ],
+        "technologies": ["JavaScript", "PHP", "JSON", "API"],
+        "url": "",
+        "github": "https://github.com/CaspianUlvmane/MOCHA_Movies",
+        "date": "2023-01-10"
+        },
+        {
+        "id": 4,
+        "title": "Studerience",
+        "description": "A platform displaying foreign exchange opportunities for university students.",
+        "details": [
+          "This project is a platform that connects university students with foreign exchange opportunities.",
+          "It features a clean and modern design, allowing students to easily navigate through various exchange programs in different countries and parts of the world.",
+          "The site is built using JavaScript, only retrieving data from a JSON database.",
+          "By providing detailed information about each course and allowing users to filter effectively, it aims to enhance the student exchange experience.",
+          "SVG maps were created to intuitively explore specific countries and regions, making it easier for students to find suitable programs.",
+          "This project was part of a project at Malmö University, showcasing my skills in web development and user experience design."
+        ],
+        "technologies": ["JavaScript", "JSON", "SVG"],
+        "url": "",
+        "github": "https://github.com/CaspianUlvmane/programming-for-the-webb-ME132A-golden-sevilla",
+        "date": "2023-05-20"
+        },
+        {
+        "id": 5,
+        "title": "Sparkz Marketing Site",
+        "description": "A marketing site for Sparkz, a company specializing in digital booking solutions.",
+        "details": [
+          "This project is a marketing site for Sparkz, a company that specializes in digital booking solutions.",
+          "The site features a modern and professional design, showcasing the company's services and solutions.",
+          "It is built using Twig and JavaScript for the frontend and PHP using the Symfony framework for the backend.",
+          "The site includes a contact form for potential clients to get in touch with Sparkz, enhancing user engagement and lead generation."
+        ],
+        "technologies": ["JavaScript", "PHP", "Symfony", "Twig", "Tailwind CSS"],
+        "url": "",
+        "github": "https://github.com/CaspianUlvmane/SparkzSelling",
+        "date": "2024-10-15"
+        },
+        {
+        "id": 6,
+        "title": "Online Yatzy",
+        "description": "A multiplayer online Yatzy game.",
+        "details": [
+          "This project is a multiplayer online Yatzy game that allows users to play against each other in real-time on a single device.",
+          "It features a responsive design and intuitive user interface, making it easy for players to start a game and compete.",
+          "The game is built using native JavaScript making it lightweight."
+        ],
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "url": "https://online-yatzy.vercel.app",
+        "github": "https://github.com/CaspianUlvmane/OnlineYatzy",
+        "date": "2022-08-07"
+        }
+    ]
+}

@@ -1,35 +1,121 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
-// Dummy data for demonstration
-const projects = [
-  {
-    id: "1",
-    title: "Project One",
-    description: "Detailed info about Project One.",
-  },
-  {
-    id: "2",
-    title: "Project Two",
-    description: "Detailed info about Project Two.",
-  },
-  {
-    id: "3",
-    title: "Project Three",
-    description: "Detailed info about Project Three.",
-  },
-];
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+} from "../components/ui/card";
+import { useEffect } from "react";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbList,
+  BreadcrumbSeparator,
+  BreadcrumbLink,
+} from "~/components/ui/breadcrumb";
 
 export default function ProjectPage() {
-  const { id } = useParams();
-  const project = projects.find((p) => p.id === id);
+  let { id } = useParams();
+  id = Number(id);
+  const [project, setProject] = React.useState<any>(null);
 
-  if (!project) return <div>Project not found.</div>;
+  useEffect(() => {
+    fetch("/db/projects.json")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        data = data.projects;
+        console.log(id);
+        console.log(data);
+        setProject(
+          data
+            .filter((p) => p.id === id)
+            .map((project: any) => ({
+              id: project.id,
+              title: project.title,
+              description: project.description || "No description provided.",
+              details: project.details || "No details provided.",
+              technologies: project.technologies || [
+                "No technologies specified.",
+              ],
+              url: project.url,
+              github:
+                project.github ||
+                "This project has no GitHub link due to permissions.",
+              date: project.date || "No date provided.",
+            }))[0]
+        );
+      });
+  }, []);
+
+  console.log(project);
 
   return (
-    <div className="p-8 max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
-      <p className="text-lg">{project.description}</p>
-    </div>
+    <>
+      {project && (
+        <div className="p-8 max-w-2xl lg:max-w-4xl mx-auto flex flex-col gap-4 relative z-10">
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbLink href="/">Home</BreadcrumbLink>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>{project.title}</BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+          <Card className="border-accent">
+            <CardHeader>
+              <CardTitle className="text-2xl text-center">
+                {project.title}
+              </CardTitle>
+              <CardDescription className="text-center">
+                {project.description}
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col gap-2">
+              {project.details.map((detail: string, index: number) => (
+                <p key={index} className="mb-2">
+                  {detail}
+                </p>
+              ))}
+              <p className="mb-2 font-bold text-center">Technologies</p>
+              <ul className="flex mb-4 gap-2 flex-wrap items-start justify-start">
+                {project.technologies.map((tech: string, index: number) => (
+                  <>
+                    <li
+                      className="p-2 border border-accent rounded-2xl shadow-sm"
+                      key={index}
+                    >
+                      {tech}
+                    </li>
+                  </>
+                ))}
+              </ul>
+              <p className="mb-4">Date: {project.date}</p>
+
+              {project.url && (
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  View
+                </a>
+              )}
+
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                View on GitHub
+              </a>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+    </>
   );
 }

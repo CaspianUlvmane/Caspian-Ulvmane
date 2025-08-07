@@ -6,9 +6,10 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
+import { useEffect } from "react";
 import type { Route } from "./+types/root";
 import "./app.css";
+import React from "react";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -24,6 +25,20 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const [GradientPosition, setGradientPosition] = React.useState({
+    x: 0,
+    y: 0,
+  });
+
+  useEffect(() => {
+    const onMouseMove = (e: MouseEvent) => {
+      e.preventDefault();
+      setGradientPosition({ x: e.clientX, y: e.clientY });
+    };
+
+    window.addEventListener("mousemove", onMouseMove);
+  });
+
   return (
     <html lang="en">
       <head>
@@ -32,7 +47,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-background text-foreground antialiased dark">
+        <div
+          id="cover"
+          style={{
+            backgroundImage: `radial-gradient( circle at ${GradientPosition.x}px ${GradientPosition.y}px, transparent 5% , var(--background) 50%)`,
+          }}
+        ></div>
         {children}
         <ScrollRestoration />
         <Scripts />
