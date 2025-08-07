@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <h1 className="text-4xl text-center font-bold mb-6">About Me</h1>
-      <div className="w-32 h-32 rounded-full overflow-hidden flex items-start justify-center mb-4 shadow shadow-purple-950 backdrop-blur-[2px]">
+      <div className="w-32 h-32 rounded-full overflow-hidden flex items-start justify-center mb-4 shadow shadow-purple-950 backdrop-blur-[1px]">
         <img
           src="caspian_portrait.png"
           alt="Profile"
