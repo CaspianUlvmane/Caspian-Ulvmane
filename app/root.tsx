@@ -47,7 +47,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className="bg-background text-foreground antialiased dark">
+      <body className="bg-background text-foreground antialiased dark hover:cursor-default">
         <div
           id="cover"
           style={{
