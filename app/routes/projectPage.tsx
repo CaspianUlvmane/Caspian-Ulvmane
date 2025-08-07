@@ -41,9 +41,7 @@ export default function ProjectPage() {
                 "No technologies specified.",
               ],
               url: project.url,
-              github:
-                project.github ||
-                "This project has no GitHub link due to permissions.",
+              github: project.github,
               date: project.date || "No date provided.",
             }))[0]
         );
@@ -100,18 +98,20 @@ export default function ProjectPage() {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"
                 >
-                  View
+                  View Project
                 </a>
               )}
 
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 hover:underline"
-              >
-                View on GitHub
-              </a>
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  View on Github
+                </a>
+              )}
             </CardContent>
           </Card>
         </div>

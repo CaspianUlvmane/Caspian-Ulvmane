@@ -15,6 +15,21 @@
         "date": "2024-06-01"
         },
         {
+            "id": 7,
+            "title": "Mimair",
+            "description": "Mimair is a digital learning platform which utilizes AI to optimize learning.",
+            "details": [
+                "Mimair is a startup with the goal of making learning more accessible and personalized by utilizing AI models and LLMs",
+                "I was hired as a full stack consultant from May 2025 to September 2025 and during this time I've implemented features and shared insights.",
+                "The frontend has gone through multiple stages using Chakra UI and later ShadCN built on React framework. The backend is built using Python, Django and Djoser to safley and effectivley handle data to our SQL database.",
+                " The app is Dockerised using containers to serve the application and database. I have implemented rate and request limiting to minimize costs, gameification features to improve user retention and designed both graphical elements and database schemas."
+            ],
+            "technologies": ["TypeScript", "Chackra UI", "ShadCN", "Python", "Django", "Docker", "SQL"],
+            "url": "https://www.mimair.com/",
+            "github": "",
+            "date": "2025-05-23"
+        },
+        {
         "id": 2,
         "title": "Movie Community",
         "description": "A simple movie review website displaying comments and ratings of popular movies.",
