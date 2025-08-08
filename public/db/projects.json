@@ -5,11 +5,12 @@
         "title": "Taste Events by Wolfmoon",
         "description": "A professional website displaying events hosted by Taste Events by Wolfmoon.",
         "details": [
-          "This project showcases a professional website that lists various events hosted by Taste Events by Wolfmoon, featuring a modern design and user-friendly interface.",
-          "By utilizing Firebase for backend services, the site ensures real-time updates and efficient data management.",
-          "The site includes an admin platform where the company can quickly and easily create new events, change old ones, and manage the site's content."
+          "Designed and developed a professional website for Taste Events by Wolfmoon, focusing on a modern look and user-friendly interface.",
+          "Integrated Firebase for backend services to provide real-time updates and efficient data management.",
+          "Built an admin platform that enables the company to quickly create, update, and manage events and site content."
         ],
         "technologies": ["JavaScript", "React", "Node.js", "Firebase", "GCP"],
+        "image": "../public/images/TasteEventsByWolfmoon.jpg",
         "url": "https://tasteeventsbywolfmoon.se",
         "github": "https://github.com/CaspianUlvmane/TasteEvents",
         "date": "2024-06-01"
@@ -18,18 +19,86 @@
             "id": 7,
             "title": "Mimair",
             "description": "Mimair is a digital learning platform which utilizes AI to optimize learning.",
-            "details": [
-                "Mimair is a startup with the goal of making learning more accessible and personalized by utilizing AI models and LLMs",
-                "I was hired as a full stack consultant from May 2025 to September 2025 and during this time I've implemented features and shared insights.",
-                "The frontend has gone through multiple stages using Chakra UI and later ShadCN built on React framework. The backend is built using Python, Django and Djoser to safley and effectivley handle data to our SQL database.",
-                " The app is Dockerised using containers to serve the application and database. I have implemented rate and request limiting to minimize costs, gameification features to improve user retention and designed both graphical elements and database schemas."
-            ],
+      "details": [
+        "Contributed as a full stack consultant at Mimair, making learning more accessible and personalized by utilizing AI models and LLMs.",
+        "Implemented new features, improved existing ones, and provided technical insights to the team from May to September 2025.",
+        "Worked on the frontend using Chakra UI and later ShadCN, and built robust backend solutions with Python, Django, and Djoser to securely manage data in our SQL database.",
+        "The app was Dockerized, with rate and request limiting to minimize costs, gamification features to boost user retention, and both graphical elements and database schemas designed and implemented."
+      ],
             "technologies": ["TypeScript", "Chackra UI", "ShadCN", "Python", "Django", "Docker", "SQL"],
             "url": "https://www.mimair.com/",
+            "image": "../public/images/Mimair.jpg",
             "github": "",
             "date": "2025-05-23"
         },
         {
+        "id": 3,
+        "title": "Mocha Movies",
+        "description": "A movie review website displaying comments and ratings of popular movies.",
+        "details": [
+          "Developed a movie review website where users can view and post comments and ratings for popular movies.",
+          "Created a sleek and modern interface for easy navigation and a dynamic user experience.",
+          "Built the frontend with JavaScript and the backend with PHP, using a custom JSON database for storage.",
+          "Implemented user authentication, allowing users to review, comment, and save movies while connecting with friends.",
+          "Integrated external APIs for movie data and managed user-generated content in the JSON database.",
+          "This project was part of my coursework at Malmö University, highlighting my web development and UX skills."
+        ],
+        "technologies": ["JavaScript", "PHP", "JSON", "API"],
+        "url": "",
+        "image": "../public/images/MochaMovies.jpg",
+        "github": "https://github.com/CaspianUlvmane/MOCHA_Movies",
+        "date": "2023-01-10"
+        },
+        {
+        "id": 4,
+        "title": "Studerience",
+        "description": "A platform displaying foreign exchange opportunities for university students.",
+        "details": [
+          "Created a platform to connect university students with foreign exchange opportunities worldwide.",
+          "Designed a clean, modern UI to help students easily navigate and explore exchange programs in different countries.",
+          "Built the site using JavaScript and managed all data retrieval from a custom JSON database.",
+          "Provided detailed course information and implemented advanced filtering to enhance the student experience.",
+          "Designed and integrated SVG maps for intuitive exploration of countries and regions.",
+          "This project was part of my studies at Malmö University, demonstrating my web development and UX expertise."
+        ],
+        "technologies": ["JavaScript", "JSON", "SVG"],
+        "url": "",
+        "image": "../public/images/Studerience.jpg",
+        "github": "https://github.com/CaspianUlvmane/programming-for-the-webb-ME132A-golden-sevilla",
+        "date": "2023-05-20"
+        },
+        {
+        "id": 5,
+        "title": "Sparkz Marketing Site",
+        "description": "A marketing site for Sparkz, a company specializing in digital booking solutions.",
+        "details": [
+          "Developed a marketing site for Sparkz, a company specializing in digital booking solutions.",
+          "Designed a modern, professional interface to showcase the company's services and solutions.",
+          "Built the frontend with Twig and JavaScript, and the backend with PHP using the Symfony framework.",
+          "Implemented a contact form to help Sparkz engage with potential clients and generate leads."
+        ],
+        "technologies": ["JavaScript", "PHP", "Symfony", "Twig", "Tailwind CSS"],
+        "url": "",
+        "image": "../public/images/Sparkz.jpg",
+        "github": "https://github.com/CaspianUlvmane/SparkzSelling",
+        "date": "2024-10-15"
+        },
+        {
+        "id": 6,
+        "title": "Online Yatzy",
+        "description": "A multiplayer online Yatzy game.",
+        "details": [
+          "Built a multiplayer online Yatzy game that lets users play against each other in real-time on a single device.",
+          "Designed a responsive layout and intuitive UI for a seamless gaming experience.",
+          "Developed the game using native JavaScript to keep it lightweight and fast."
+        ],
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "url": "https://online-yatzy.vercel.app",
+        "image": "../public/images/OnlineYatzy.jpg",
+        "github": "https://github.com/CaspianUlvmane/OnlineYatzy",
+        "date": "2022-08-07"
+        },
+                {
         "id": 2,
         "title": "Movie Community",
         "description": "A simple movie review website displaying comments and ratings of popular movies.",
@@ -43,69 +112,6 @@
         "url": "https://remix-movie-community.vercel.app",
         "github": "https://github.com/CaspianUlvmane/Remix_Movie_Community",
         "date": "2024-11-26"
-        },
-        {
-        "id": 3,
-        "title": "Mocha Movies",
-        "description": "A movie review website displaying comments and ratings of popular movies.",
-        "details": [
-          "This project is a movie review website that allows users to view and post comments and ratings for popular movies.",
-          "It features a sleek and modern design for easy navigation.",
-          "The site is built using JavaScript for the frontend and PHP for the backend, storing data in a simple JSON database.",
-          "By logging in, users can review, comment, and save movies while keeping up with their friends, all with a dynamic user experience.",
-          "By fetching movies from an external API and storing user-generated content in a JSON database, the site provides a seamless interaction for movie enthusiasts.",
-          "This project was part of a project at Malmö University, showcasing my skills in web development and user experience design."
-        ],
-        "technologies": ["JavaScript", "PHP", "JSON", "API"],
-        "url": "",
-        "github": "https://github.com/CaspianUlvmane/MOCHA_Movies",
-        "date": "2023-01-10"
-        },
-        {
-        "id": 4,
-        "title": "Studerience",
-        "description": "A platform displaying foreign exchange opportunities for university students.",
-        "details": [
-          "This project is a platform that connects university students with foreign exchange opportunities.",
-          "It features a clean and modern design, allowing students to easily navigate through various exchange programs in different countries and parts of the world.",
-          "The site is built using JavaScript, only retrieving data from a JSON database.",
-          "By providing detailed information about each course and allowing users to filter effectively, it aims to enhance the student exchange experience.",
-          "SVG maps were created to intuitively explore specific countries and regions, making it easier for students to find suitable programs.",
-          "This project was part of a project at Malmö University, showcasing my skills in web development and user experience design."
-        ],
-        "technologies": ["JavaScript", "JSON", "SVG"],
-        "url": "",
-        "github": "https://github.com/CaspianUlvmane/programming-for-the-webb-ME132A-golden-sevilla",
-        "date": "2023-05-20"
-        },
-        {
-        "id": 5,
-        "title": "Sparkz Marketing Site",
-        "description": "A marketing site for Sparkz, a company specializing in digital booking solutions.",
-        "details": [
-          "This project is a marketing site for Sparkz, a company that specializes in digital booking solutions.",
-          "The site features a modern and professional design, showcasing the company's services and solutions.",
-          "It is built using Twig and JavaScript for the frontend and PHP using the Symfony framework for the backend.",
-          "The site includes a contact form for potential clients to get in touch with Sparkz, enhancing user engagement and lead generation."
-        ],
-        "technologies": ["JavaScript", "PHP", "Symfony", "Twig", "Tailwind CSS"],
-        "url": "",
-        "github": "https://github.com/CaspianUlvmane/SparkzSelling",
-        "date": "2024-10-15"
-        },
-        {
-        "id": 6,
-        "title": "Online Yatzy",
-        "description": "A multiplayer online Yatzy game.",
-        "details": [
-          "This project is a multiplayer online Yatzy game that allows users to play against each other in real-time on a single device.",
-          "It features a responsive design and intuitive user interface, making it easy for players to start a game and compete.",
-          "The game is built using native JavaScript making it lightweight."
-        ],
-        "technologies": ["JavaScript", "HTML", "CSS"],
-        "url": "https://online-yatzy.vercel.app",
-        "github": "https://github.com/CaspianUlvmane/OnlineYatzy",
-        "date": "2022-08-07"
         }
     ]
 }

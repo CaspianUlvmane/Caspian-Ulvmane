@@ -37,6 +37,7 @@ export default function ProjectPage() {
               title: project.title,
               description: project.description || "No description provided.",
               details: project.details || "No details provided.",
+              image: project.image,
               technologies: project.technologies || [
                 "No technologies specified.",
               ],
@@ -76,6 +77,11 @@ export default function ProjectPage() {
                   {detail}
                 </p>
               ))}
+              <img
+                className="mx-auto border-2 border-accent-foreground max-h-[404px] rounded-4xl shadow-2xl"
+                src={project.image}
+                alt={project.title}
+              />
               <p className="mb-2 font-bold text-center">Technologies</p>
               <ul className="flex mb-4 gap-2 flex-wrap items-start justify-start">
                 {project.technologies.map((tech: string, index: number) => (
