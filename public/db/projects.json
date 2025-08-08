@@ -10,7 +10,7 @@
           "Built an admin platform that enables the company to quickly create, update, and manage events and site content."
         ],
         "technologies": ["JavaScript", "React", "Node.js", "Firebase", "GCP"],
-        "image": "../public/images/TasteEventsByWolfmoon.jpg",
+  "image": "/images/TasteEventsByWolfmoon.jpg",
         "url": "https://tasteeventsbywolfmoon.se",
         "github": "https://github.com/CaspianUlvmane/TasteEvents",
         "date": "2024-06-01"
@@ -27,7 +27,7 @@
       ],
             "technologies": ["TypeScript", "Chackra UI", "ShadCN", "Python", "Django", "Docker", "SQL"],
             "url": "https://www.mimair.com/",
-            "image": "../public/images/Mimair.jpg",
+            "image": "/images/Mimair.jpg",
             "github": "",
             "date": "2025-05-23"
         },
@@ -45,7 +45,7 @@
         ],
         "technologies": ["JavaScript", "PHP", "JSON", "API"],
         "url": "",
-        "image": "../public/images/MochaMovies.jpg",
+  "image": "/images/MochaMovies.jpg",
         "github": "https://github.com/CaspianUlvmane/MOCHA_Movies",
         "date": "2023-01-10"
         },
@@ -63,7 +63,7 @@
         ],
         "technologies": ["JavaScript", "JSON", "SVG"],
         "url": "",
-        "image": "../public/images/Studerience.jpg",
+  "image": "/images/Studerience.jpg",
         "github": "https://github.com/CaspianUlvmane/programming-for-the-webb-ME132A-golden-sevilla",
         "date": "2023-05-20"
         },
@@ -79,7 +79,7 @@
         ],
         "technologies": ["JavaScript", "PHP", "Symfony", "Twig", "Tailwind CSS"],
         "url": "",
-        "image": "../public/images/Sparkz.jpg",
+  "image": "/images/Sparkz.jpg",
         "github": "https://github.com/CaspianUlvmane/SparkzSelling",
         "date": "2024-10-15"
         },
@@ -94,7 +94,7 @@
         ],
         "technologies": ["JavaScript", "HTML", "CSS"],
         "url": "https://online-yatzy.vercel.app",
-        "image": "../public/images/OnlineYatzy.jpg",
+  "image": "/images/OnlineYatzy.jpg",
         "github": "https://github.com/CaspianUlvmane/OnlineYatzy",
         "date": "2022-08-07"
         },
