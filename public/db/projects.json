@@ -110,6 +110,7 @@
         ],
         "technologies": ["TypeScript", "Remix", "Prisma DB", "Tailwind CSS"],
         "url": "https://remix-movie-community.vercel.app",
+        "image": "/images/MovieCommunity.jpg",
         "github": "https://github.com/CaspianUlvmane/Remix_Movie_Community",
         "date": "2024-11-26"
         }
